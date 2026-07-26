@@ -5,10 +5,9 @@ compatibility_flags = ["nodejs_compat"]
 
 workers_dev = true
 
-# 如需绑定自定义域,取消注释并改成你的域名(该域需已托管在 Cloudflare):
-# routes = [
-#   { pattern = "bin.example.com", custom_domain = true }
-# ]
+routes = [
+  { pattern = "bin.lzyjl.com", custom_domain = true }
+]
 
 # Secrets(用 wrangler secret put 设置,绝不写在这里):
 #   HANDY_API_KEY  — HandyAPI 的 x-api-key
